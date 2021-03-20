@@ -31,7 +31,8 @@ numpy_data_x, labels_onehot = load_your_data(...)
 # Create attribution object 
 big = BA_pytorch('BIG', use_boundary=True)
 
-# Load the default parameters. You can also modify these parameters if needed.
+# Load the default parameters. You can also modify these parameters if needed. 
+# These default parameters should work with one Titan RTX 3080.
 parameters = boundary.PARAMETERS
 pipeline = boundary.PIPELINE
 
