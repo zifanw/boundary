@@ -8,6 +8,7 @@ Run `sh install_lib.sh` to install the dependencies. Note that our code is intia
 
 The current code is tested using 
 ```
+Python = 3.8.5
 Pytorch = 1.6.0
 Torchvision = 0.7.0
 ```
