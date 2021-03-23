@@ -1,5 +1,5 @@
 # Boundary Attribution
-Implementation of Boundary Attributions for Normal (Vector) Explanations
+Implementation of [Boundary Attributions for Normal (Vector) Explanations](https://arxiv.org/pdf/2103.11257.pdf)
 
 ![image](media/demo.png)
 
