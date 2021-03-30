@@ -6,7 +6,7 @@ Implementation of [Boundary Attributions for Normal (Vector) Explanations](https
 ## Setup
 Run `sh install_lib.sh` to install the dependencies. 
 
-Note that the results presented in the paper are using Pytorch models, but we also provide implementations for Tensorflow 2. If you are using Tensorflow, you must ensure you use eager execution (which is enabled by default in TF2).  The current code is tested using 
+Notice that results presented in the paper are generated using Pytorch models, but we also provide implementations for Tensorflow 2. If you are using Tensorflow, you must ensure you use eager execution (which is enabled by default in TF2).  The current code is tested using 
 ```
 Python = 3.8.5
 Pytorch = 1.6.0
