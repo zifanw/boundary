@@ -35,7 +35,7 @@ A complete example is shown in `example_pytorch.ipynb`. The following code block
 import boundary
 from boundary import BA_pytorch
 
-# Load your pytorch/tf.keras model
+# Load your pytorch
 model = load_model(...) 
 
 # Load your data into numpy arrays
@@ -67,7 +67,7 @@ A complete example is shown in `example_tensorflow.ipynb`. The following code bl
 import boundary
 from boundary import BA_tensorflow
 
-# Load your pytorch/tf.keras model
+# Load your tf.keras model
 model = load_model(...) 
 
 # Load your data into numpy arrays
