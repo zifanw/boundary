@@ -114,7 +114,17 @@ fig = plt.figure(figsize=(10,10))
 _ = mask_viz(attr, img, overlay_opacity=0.5, fig=fig, return_tiled=False)
 ```
 
-
+## Citations
+```
+@misc{wang2021boundary,
+      title={Boundary Attributions Provide Normal (Vector) Explanations}, 
+      author={Zifan Wang and Matt Fredrikson and Anupam Datta},
+      year={2021},
+      eprint={2103.11257},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 
 
