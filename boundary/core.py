@@ -202,7 +202,7 @@ def get_boundary_points(model,
                             batch_x,
                             tf.argmax(batch_y, -1),
                             epsilons=[eps])
-                        c_boundary_points = tf.cast(c_boundary_points[0], tf.int32).numpy()
+                        c_boundary_points = c_boundary_points[0].numpy()
                         c_success = tf.cast(c_success[0], tf.int32).numpy()
 
                         print(
