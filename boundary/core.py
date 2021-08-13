@@ -115,7 +115,6 @@ def get_boundary_points(model,
                         **kwargs):
 
     """Find nearby boundary points by running adversarial attacks
-
     Args:
         model (tf.models.Model or torch.nn.Module): tf.keras model or pytorch model
         x (np.ndarray): Benigh inputs
@@ -126,7 +125,6 @@ def get_boundary_points(model,
         clamp (list, optional): Data range. Defaults to [0, 1].
         backend (str, optional): Deep learning frame work. It is either 'tf.keras' or 'pytorch'. Defaults to 'pytorch'.
         device (str, optional): GPU device to run the attack. This only matters if the backend is 'pytorch'. Defaults to 'cuda:0'.
-
     Returns:
         (np.ndarray, np.ndarray): Points on the closest boundary and distances
     """
@@ -164,7 +162,7 @@ def get_boundary_points(model,
                         epsilons=[search_range[2]])
 
                     boundary_points.append(
-                        batch_boundary_points[0].unsqueeze(0))
+                        batch_boundary_points[0])
                     success += np.sum(batch_success)
 
                 boundary_points = tf.concat(boundary_points, axis=0)
